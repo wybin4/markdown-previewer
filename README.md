@@ -2,7 +2,7 @@
 simple markdown previewer
 
 
-this is the implementation of the task from the freecodecamp course - front end development libraries. the design is partially borrowed from an external source, the color palette is taken from a specialized site.
+this is the implementation of the task from the freecodecamp course - front end development libraries. the color palette is taken from a specialized site.
 
 the results are:
 
