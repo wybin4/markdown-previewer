@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+* {
+  background-color: var(--white);
+}
+body {
+  font-family: Ubuntu;
+}
+:root {
+  --light-blue: rgb(163, 206, 241);
+  --medium-blue: rgb(96, 150, 186);
+  --dark-blue: rgb(39, 76, 119);
+  --white: rgb(245, 247, 249);
+  --grey: rgb(226, 228, 232);
+}
+#col-head {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+  padding: 10px;
+  border-radius: 5px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+#editor,
+#preview {
+  width: 50%;
+  height: 100vh;
+}
+#prev-ed-border {
+  margin: 0 20px 0 20px;
+  background-color: var(--grey);
+  width: 1.2px;
+  height: 100vh;
+}
+textarea{
+  height: 500px !important;
+  padding-top: 20px !important;
+  padding-bottom: 10px !important;
+}
+#main-text{
+  overflow-y: scroll;
+  height: 500px;
+  padding-right: 20px;
+}
+#preview{
+  color: var(--dark-blue);
+}
+a:hover, a:visited, a:link, a:active
+{
+  text-decoration: none;
+  color: var(--medium-blue) !important;
+}
+h1{
+  border-bottom: 1.2px solid var(--grey);
+  padding-bottom: 10px;
+}
+code{
+  color: var(--dark-blue) !important;
+  background-color: var(--light-blue);
+  padding: 2px;
+  border-radius: 2px;
+}
+img{
+  width: 100%;
+  padding: 20px 0 10px 0;
+}
+pre, pre>code{
+  background-color: white !important;
+  border-radius: 5px !important;
+}
+pre{
+  border-left: 5px solid var(--light-blue);
+  padding: 20px 0 20px 10px;
+  overflow: hidden !important;
+}
+table{
+  border-collapse: collapse;
+}
+td,
+  th {
+    border: 1.2px solid var(--dark-blue) !important;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
