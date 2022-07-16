@@ -23,7 +23,7 @@ A *FreeCodeCamp* challenge on using front end libraries to build a markdown prev
 ---
 
 #### More about the challenge [Build a Markdown Previewer](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer).
-#### See it in action [HERE](https://amr-adel.github.io/fcc-markdown-previewer/).
+#### See it in action [HERE](https://ajdivotf.github.io/markdown-previewer/).
 `;
 
 class App extends React.Component {
